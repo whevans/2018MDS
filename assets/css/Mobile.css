@@ -1,0 +1,167 @@
+/* ========= Mobile Styles ========= */
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+#mobile-contact{   
+  background-color: #6dc1ff;
+  position: relative;
+  height: 50px;
+  margin-top:170px;
+  margin-left: 0;
+  width: 100%;
+}   
+#mobile-contact h1{
+  color: #ffffff;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 21px;
+  text-align: left;
+  padding-left: 15px;
+  line-height: 50px;
+
+}
+
+#mobile-contact h1 span {
+  color: #ffffff;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 21px;
+  padding-left: 100px;
+  line-height: 50px;
+}
+.navbar navbar-default navbar-fixed-top{
+
+  padding-bottom: 0px;
+}
+}
+
+#services{
+  padding-bottom: 90px;
+}
+
+@media only screen and (max-width: 426px) {
+.input-group {
+width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 425px) {
+    #hero {
+  clear: top;
+  margin-top: 0px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #ffffff;
+  background-image: url("../images/Iphone-8_MDS-home-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero h1 {
+  margin-top: ;
+  padding-bottom: ;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:40px;
+  color: #ffffff;
+  text-align: left;
+}
+#footer-contact{
+  display: none;
+  left: 0;
+}
+
+#rectangle1 {
+  background-color: rgba(255, 255, 255, 1.0);
+  position: absolute;
+  overflow: hidden;
+  left: 10%;
+  margin-top: 295px;
+  max-height: 225px;
+}
+#rectangle1 p {
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15.0px;
+  color: rgba(48, 45, 46, 1.0);
+  text-align: left;
+  line-height: 32.0px;
+}
+
+.center-jumbotron {
+  padding: 30px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+  max-height: 750px;
+  min-height: 550px;
+  background-image: url("../images/iphone-lady on car-341071.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.center-jumbotron h1 {
+  line-height: 1;
+  color: inherit;
+}
+.center-jumbotron p {
+  line-height: 1.4;
+}
+
+.rectangle2 {
+  width: 300px;
+  height: 220px;
+  margin-left: 25%;
+  margin-top: 500px;
+  background-color: rgba(255, 255, 255, 1.0);
+  vertical-align: bottom;
+  position: absolute;
+  overflow: hidden;
+  left: 0%;
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.rectangle2 p {
+  
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15.0px;
+  color: rgba(48, 45, 46, 1.0);
+  text-align: left;
+  line-height: 32.0px;
+ 
+}
+
+#secondary-hero {
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+  background-image: url("../images/iphone-8_arial-street.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#secondary-hero h1 {
+ 
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48.0px;
+  color: #ffffff;
+  text-align: left;
+  line-height: 63.0px;
+}
+
+}
+
+/* ========= End Mobile Styles ========= */
+
