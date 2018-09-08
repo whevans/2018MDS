@@ -4,6 +4,7 @@
  * Project Name: Starter Kit for Midway Driving School
  * Version: 1.0
  */
+
   
 /* ========================= Custom Styles =================================*/
 
@@ -139,12 +140,12 @@
 }
 #rectangle1 {
   background-color: rgba(255, 255, 255, 1.0);
-  height: 315px;
+  height: 415px;
   width: 300px;
   position: absolute;
-  margin-top: 300px;
+  margin-top: 200px;
   overflow: hidden;
-  left: 10%;
+  left: 12%;
   vertical-align: bottom;
 }
 #rectangle1 p {
@@ -159,6 +160,7 @@
   text-align: left;
   line-height: 32.0px;
 }
+
 #location-services {
   padding-bottom: 50px;
 }
@@ -370,7 +372,6 @@ textarea {
   font-weight: 300;
   color: #333;
   font-size: 20px;
-  color: #302D2F;
   letter-spacing: 0;
   line-height: 22px;
 }
@@ -385,6 +386,17 @@ textarea {
 }
 #postSearch {
   float:right;
+}
+
+#copyright{
+  color: #ffffff; 
+  margin-bottom: 25px;
+  margin-left: 5%;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 50px;
 }
 /* ========================= End Custom Styles =================================*/
 
