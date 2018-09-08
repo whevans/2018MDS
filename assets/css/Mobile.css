@@ -1,4 +1,11 @@
-/* ========= Mobile Styles ========= */
+/*
+ * Author: Will Evans
+ *
+ * Project Name: Starter Kit for Midway Driving School-mobile
+ * Version: 1.0
+ */
+
+ /* ========= Mobile Styles ========= */
 @media only screen and (min-width: 0px) and (max-width: 425px) {
 #mobile-contact{   
   background-color: #6dc1ff;
@@ -79,8 +86,10 @@ width: 100%;
   position: absolute;
   overflow: hidden;
   left: 10%;
-  margin-top: 295px;
-  max-height: 225px;
+  margin-top: 195px;
+  max-height: 325px;
+  width: 200px;
+  margin-left: 30%;
 }
 #rectangle1 p {
   font-family: "Roboto", Helvetica, Arial, serif;
@@ -89,7 +98,19 @@ width: 100%;
   font-size: 15.0px;
   color: rgba(48, 45, 46, 1.0);
   text-align: left;
-  line-height: 32.0px;
+  line-height: 20px;
+}
+.btn btn-primary btn-lg{
+  max-width: 5px;
+  margin-left: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#rectangleBtn{
+  max-width: 5px;
+  margin-left: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .center-jumbotron {
