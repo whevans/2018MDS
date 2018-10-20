@@ -6,7 +6,7 @@
  */
 
  /* ========= Mobile Styles ========= */
-@media only screen and (min-width: 0px) and (max-width: 425px) {
+@media only screen and (min-width: 0px) and (max-width: 375px) {
 #mobile-contact{   
   background-color: #6dc1ff;
   position: relative;
@@ -20,7 +20,7 @@
   font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 21px;
+  font-size: 18px;
   text-align: left;
   padding-left: 15px;
   line-height: 50px;
@@ -32,14 +32,39 @@
   font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 21px;
+  font-size: 18px;
   padding-left: 100px;
   line-height: 50px;
+}
+.container-body p {
+  text-align: center;
+  margin-left: 0;
+  padding-top: 50px; 
+  width: 100%;
+  padding-left: 10px;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+#copyright{
+  color: #ffffff; 
+  margin-bottom:0;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 100px;
 }
 .navbar navbar-default navbar-fixed-top{
 
   padding-bottom: 0px;
 }
+.navbar-collapse {
+    border-top: none;
 }
 
 #services{
@@ -53,7 +78,7 @@ width: 100%;
 
 }
 
-@media only screen and (min-width: 0px) and (max-width: 425px) {
+@media only screen and (min-width: 0px) and (max-width: 375px) {
     #hero {
   clear: top;
   margin-top: 0px;
@@ -67,18 +92,21 @@ width: 100%;
   background-repeat: no-repeat;
 }
 #hero h1 {
-  margin-top: ;
-  padding-bottom: ;
   font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size:40px;
+  font-size:30px;
   color: #ffffff;
   text-align: left;
+  line-height: 30px;
 }
 #footer-contact{
   display: none;
   left: 0;
+}
+#footer h2{
+  font-size: 18px;
+  font-weight: 900;
 }
 
 #rectangle1 {
@@ -86,8 +114,8 @@ width: 100%;
   position: absolute;
   overflow: hidden;
   left: 10%;
-  margin-top: 195px;
-  max-height: 325px;
+  margin-top: 305px;
+  height: 216px;
   width: 200px;
   margin-left: 30%;
 }
@@ -95,23 +123,31 @@ width: 100%;
   font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 15.0px;
+  font-size: 13px;
   color: rgba(48, 45, 46, 1.0);
   text-align: left;
-  line-height: 20px;
+  line-height: 15px;
+  padding-bottom: 10px;
 }
-.btn btn-primary btn-lg{
-  max-width: 5px;
-  margin-left: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
+
+.btn-lg{
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  margin-right: 40px;
+  align-items: center;
 }
-#rectangleBtn{
-  max-width: 5px;
-  margin-left: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
+#rectangle-btn {
+  padding: 5px 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-right: 15%;
+  margin-left: 15%;
+  align-items: center;
+  border-radius: 0px;
+  border-color: none;
 }
+
 
 .center-jumbotron {
   padding: 30px;
@@ -137,33 +173,31 @@ width: 100%;
 }
 
 .rectangle2 {
-  width: 300px;
-  height: 220px;
-  margin-left: 25%;
-  margin-top: 500px;
   background-color: rgba(255, 255, 255, 1.0);
-  vertical-align: bottom;
   position: absolute;
   overflow: hidden;
-  left: 0%;
-  -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
+  left: 10%;
+  margin-top: 305px;
+  height: 215px;
+  width: 200px;
+  margin-left: 30%;
 }
 .rectangle2 p {
-  
   font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 15.0px;
+  font-size: 13px;
   color: rgba(48, 45, 46, 1.0);
   text-align: left;
-  line-height: 32.0px;
+  line-height: 15px;
+  padding-bottom: 10px;
  
 }
 
 #secondary-hero {
   font-weight: 200;
+  max-height: 550px;
+  min-height: 550px;
   line-height: 2.1428571435;
   color: inherit;
   background-color: #eeeeee;
