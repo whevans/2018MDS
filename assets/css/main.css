@@ -18,7 +18,7 @@
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #ffffff;
+  background-color: #ffffff;  
   max-height: 750px;
   min-height: 750px;
   background-image: url("../images/MDS-home-hero 1440.png");
@@ -35,6 +35,12 @@
   color: #ffffff;
   text-align: left;
   line-height: 63.0px;
+}
+.container-body p {
+  margin-left: 25%;
+  padding-top: 50px; 
+  width: 50%;
+  padding-left: 10px;
 }
 #grid {
   padding-bottom: 50px;
@@ -152,23 +158,29 @@
   padding-top: 40px;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 70px;
   font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 24.0px;
+  font-size: 19.0px;
   color: rgba(48, 45, 46, 1.0);
   text-align: left;
   line-height: 32.0px;
 }
+#rectangleBtn {
+  margin-left: 10px;
+  margin-right: 45px;
+}
 
 #location-services {
-  padding-bottom: 50px;
+  padding-bottom: 150px;
+  padding-top: 70px;
 }
 .rectangle2 {
   background-color: rgba(255, 255, 255, 1.0);
   vertical-align: bottom;
   height: 420px;
-  width: 370px;
+  width: 350px;
   position: absolute;
   margin-top: 300px;
   overflow: hidden;
@@ -181,10 +193,11 @@
   padding-top: 40px;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 70px;
   font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 24.0px;
+  font-size: 19.0px;
   color: rgba(48, 45, 46, 1.0);
   text-align: left;
   line-height: 32.0px;
@@ -206,17 +219,36 @@
   margin: 0 auto;
   display: table;
 }
+#integration-list h1 {
+    
+    padding-top: 50px;
+    font-family: "Roboto", Helvetica, Arial, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48.0px;
+    color: rgba(48, 45, 46, 1.0);
+    text-align: left;
+    line-height: 63.0px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #6dc1ff;
+
+}
 #integration-list ul {
   padding: 0;
   margin: 20px 0;
   color: #555;
+  text-align: left;
 }
 #integration-list ul>li {
   list-style: none;
   border-top: 2px solid #7b7b7b;
   display: block;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   overflow: hidden;
+  text-align: left;
+  margin-left: 5px;
 }
 #integration-list ul:last-child {
   border-bottom: 2px solid #7b7b7b;
@@ -228,6 +260,19 @@
   text-decoration: none;
   color: #555;
   cursor: pointer;
+}
+#form h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: "Roboto", Helvetica, Arial, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48.0px;
+    text-align: left;
+    line-height: 63.0px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #6dc1ff;
 }
 h2 {
   padding: 0;
@@ -299,12 +344,23 @@ span {
 }
 #faqs {
   background-color: rgba(244, 244, 244, 1.0);
-  padding-bottom: 50px;
+  padding-bottom: 90px;
 }
 #form {
   background-color: #ffffff;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+}
+.more h1{
+    font-family: "Roboto", Helvetica, Arial, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24.0px;
+    color: rgba(48, 45, 46, 1.0);
+    text-align: left;
+
 }
 .form-control {
   top: 40px;
@@ -368,7 +424,7 @@ textarea {
 
 
 #four-col-text p {
-  font-family: "Roboto";
+  font-family: "Roboto", Helvetica, Arial, serif;
   font-weight: 300;
   color: #333;
   font-size: 20px;
@@ -377,10 +433,10 @@ textarea {
 }
 
 #four-col-text h3 {
-  font-family: "Roboto";
-  font-weight: 400;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-weight: 700;
   color: #333;
-   font-size: 26.0px;
+   font-size: 20.0px;
   text-align: left;
   line-height: 26.0px;
 }
@@ -390,14 +446,14 @@ textarea {
 
 #copyright{
   color: #ffffff; 
-  margin-bottom: 25px;
-  margin-left: 5%;
+  margin-bottom:0;
   font-family: "Roboto";
   font-weight: 300;
   font-size: 18px;
-  line-height: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
+  padding-top: 100px;
 }
+
 /* ========================= End Custom Styles =================================*/
 
 /* FONTS */
@@ -457,6 +513,28 @@ a:before, a:after {
   -o-transition: color 0.1s ease-in, background 0.1s ease-in;
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
+#services img {
+  width: 15%;
+  height: auto;
+}
+
+#services h3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 900;
+  color: #333;
+}
+
+#location-services h1{
+  text-decoration: underline;
+  text-underline-position: under;
+ text-decoration-color: #6dc1ff;
+
+
+
+
+}
 /* Bootstrap Modifications */
 
 hr {
@@ -501,6 +579,16 @@ hr {
   border: 5px solid transparent;
   border-radius: 0px;
 }
+#rectangle-btn {
+  padding: 5px 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-right: 25%;
+  margin-left: 20%;
+  align-items: center;
+  border-radius: 0px;
+  border-color: none;
+}
 .lead {
   letter-spacing: 1px;
 }
@@ -512,9 +600,10 @@ width: 65%;
 }
 #footer-contact {
   left: 15%;
+  padding-top: 50px;
 }
 #f {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 200px;
   background-color: #302D2F;
   color: #fff;
@@ -547,8 +636,13 @@ width: 65%;
   color: #ffffff; 
   text-align: left;
 }
+.col-lg-12 p {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 /* Image Opacity */
 
 .grid img:hover {
   opacity: 1;
 }
+.col-sm-6 a { color: #ffffff; }
